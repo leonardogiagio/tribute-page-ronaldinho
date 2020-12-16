@@ -1,0 +1,211 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #BFBDC1;
+    min-width: 600px;
+}
+
+header {
+    background-color: #0D160B;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1550px;
+    border-left: 3px solid #0D160B;
+    border-right: 3px solid #0D160B;
+    border-bottom: 3px solid #0D160B;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+nav ul a li {
+    padding: 15px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+nav ul a li:hover {
+    color: chocolate;
+}
+
+#sobre {
+    margin-top: 74px;
+    background-color: #484F90;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    padding: 12px;
+    color: #fff;
+    font-family: 'Space Mono', sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+#sobre h2,
+h3 {
+    padding: 12px;
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+h2 {
+    padding: 30px 20px 20px 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500; 
+}
+
+#sobre p {
+    line-height: 1.5em;
+    font-size: 1.2em;
+    color: #fff;
+    padding: 20px 90px 70px 90px;
+    text-align: justify;
+}
+
+.ronaldinho_bola_ouro {
+    padding: 30px;
+    margin-top: -20px;
+    max-width: 420px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 2%;
+}
+
+img {
+    margin-left: -20px;
+    margin-top: -15px;
+    border-radius: 1%;
+}
+
+figcaption {
+    color: #000;
+    margin-left: 30px;
+}
+
+#historia {
+    background-color: chocolate;
+}
+
+#historia p {
+    line-height: 1.5em;
+    font-size: 1.2em;
+    color: #fff;
+    padding: 10px 90px 10px 90px;
+    text-align: justify;
+}
+
+#titulos {
+    background-color: #CB4646;
+}
+
+.titulos {
+    text-align: center;
+}
+
+.coletivos ul li,
+.individuais ul li {
+    background-color: #FFF;
+    color: #484F90;
+    display: block;
+    padding: 5px;
+    margin: 10px auto auto auto;
+    width: 65%;
+    font-size: .9em;
+    font-weight: 700;
+    text-align: left;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.data_titulos {
+    background-color: #E09809;
+    padding: 6px;
+}
+
+#galeria {
+    background-color: #E09809;
+}
+
+.galeria_ronaldinho {
+    width: 100%;
+    left: 50%;
+    text-align: center;
+}
+
+.galeria_ronaldinho img {
+    border: 3px solid #fff;
+    margin: 30px;
+    transition: .7s;
+}
+
+.galeria_ronaldinho img:hover {
+    transform: scale(1.1);
+}
+
+#links {
+    background-color: #484F90;
+    padding: 30px;
+    text-align: center;
+}
+
+#links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#links a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #0D160B;
+    text-align: center;
+}
+
+i {
+    color: #fff;
+    font-size: 40px;
+    padding: 10px 15px 40px 0;
+}
+
+.nome_autor {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nome_autor:hover {
+    color: #E09809;
+}
