@@ -209,3 +209,8 @@ i {
 .nome_autor:hover {
     color: #E09809;
 }
+
+.container {
+    transform: scale(1.0);
+    transform-origin: 0 0;
+}
